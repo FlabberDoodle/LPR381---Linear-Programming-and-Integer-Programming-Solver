@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Google.OrTools.FSharp</name></assembly>
+<members>
+<member name="P:Google.OrTools.FSharp.SolverOpts.SolverGoal">
+<summary>
+ Solver Goal (Minimize/Maximize)
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.SolverAlgorithm">
+<summary>
+ Solver Algorithm to use
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ConstraintVectorEq">
+<summary>
+ Vector for linear equality constraints
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ConstraintMatrixEq">
+<summary>
+ Matrix for linear equality constraints
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.VariableLowerBound">
+<summary>
+ Vector of variable lower bounds
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.VariableUpperBound">
+<summary>
+ Vector of variable upper bounds
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ConstraintVectorLowerBound">
+<summary>
+ Lower Bound vector for linear inequality constraints
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ConstraintVectorUpperBound">
+<summary>
+ Upper Bound vector for linear inequality constraints
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ConstraintMatrix">
+<summary>
+ Matrix for linear inequality constraints
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.ObjectiveFunction">
+<summary>
+ Linear objective function vector
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.SolverOpts.SolverName">
+<summary>
+ Name of the solver
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.KnapsackSolverAlgorithm.Id">
+<summary>
+ Solver Id
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.KnapsackSolverAlgorithm">
+<summary>
+ Knapsack Solver Algorithm
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.MinimumCostFlowResult">
+<summary>
+ Minimum Cost Flow Result
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.MaximumFlowResult">
+<summary>
+ Max Flow Solver Result
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.BOP">
+<summary>
+ Binary Optimizer
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.CPLEX">
+<summary>
+ IBM CPLEX
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.GUROBI">
+<summary>
+ Gurobi Optimizer
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.CBC">
+<summary>
+ Coin-Or Branch and Cut
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.GLPK">
+<summary>
+ GNU Linear Programming Kit
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming.SCIP">
+<summary>
+ Solving Constraint Integer Programs (Recommended default)
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.IntegerProgramming.Id">
+<summary>
+ Solver Id
+</summary>
+</member>
+<member name="M:Google.OrTools.FSharp.IntegerProgramming.ToString">
+<summary>
+ Solver Name
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.IntegerProgramming">
+<summary>
+ Integer Programming Algorithms
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming.CPLEX">
+<summary>
+ IBM CPLEX
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming.GUROBI">
+<summary>
+ Gurobi Optimizer
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming.GLOP">
+<summary>
+ Google Linear Optimization
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming.GLPK">
+<summary>
+ GNU Linear Programming Kit
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming.CLP">
+<summary>
+ Coin-Or (Recommended default)
+</summary>
+</member>
+<member name="P:Google.OrTools.FSharp.LinearProgramming.Id">
+<summary>
+ Solver Id
+</summary>
+</member>
+<member name="M:Google.OrTools.FSharp.LinearProgramming.ToString">
+<summary>
+ Solver Name
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.LinearProgramming">
+<summary>
+ Linear Programming Algorithms
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.Goal.Minimize">
+<summary>
+ Minimize the Objective Function
+</summary>
+</member>
+<member name="T:Google.OrTools.FSharp.Goal.Maximize">
+<summary>
+ Maximize the Objective Function
+</summary>
+</member>
+<member name="M:Google.OrTools.FSharp.SolverSummary(Google.OrTools.LinearSolver.Solver)">
+<summary>
+ Solves the optimization problem and prints the results to console
+</summary>
+</member>
+</members>
+</doc>
