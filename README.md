@@ -22,7 +22,15 @@ The input text file must follow a specific format:
 - **Sign Restrictions**: Below the constraints, sign restrictions are defined (`+`, `-`, `urs`, `int`, `bin`) for each variable.
 
 ### Example Input File
-```text
+
 max +2 +3 +3 +5 +2 +4
 +11 +8 +6 +14 +10 +10 <=40
 bin bin bin bin bin bin
+
+![image](https://github.com/user-attachments/assets/9c9b12f2-e275-4578-8086-a2a7226bc30f)
+
+![image](https://github.com/user-attachments/assets/e547b5fc-a6f0-42c3-a2cc-4df65f849f22)
+
+![image](https://github.com/user-attachments/assets/7a44d1f3-fce5-4281-9b82-0c15173b16f3)
+
+![image](https://github.com/user-attachments/assets/d344863f-13ab-4599-9d4f-11dbed1f7ba9)
